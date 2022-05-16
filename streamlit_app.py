@@ -18,5 +18,5 @@ fruits_to_show=my_fruit_list.loc[fruits_selected]
 streamlit.dataframe(fruits_to_show)
 
 import requests
-fruityvice_response=requests.get("https://fruityvise.com/api/fruit/watermelon")
+fruityvice_response = requests.get("https://fruityvise.com/api/fruit/watermelon")
 streamlit.text(fruityvice_response)
