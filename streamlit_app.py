@@ -21,7 +21,7 @@ fruits_to_show=my_fruit_list.loc[fruits_selected]
 #streamlit.dataframe(my_fruit_list)
 streamlit.dataframe(fruits_to_show)
 
-streamlit.header('View our Fruit List - Add our favorites!!!')
+streamlit.header('View our Fruit List - Add your favorites!!!')
 
 def get_fruityvice_data(this_fruit_choice):
     fruityvice_response=requests.get("https://fruityvice.com/api/fruit/" + fruit_choise)
